@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:RestoreObject",
+                "s3:GetObjectAttributes",
+                "s3:GetBucketNotification",
+                "s3:PutBucketNotification",
+                "sns:ListTopics",
+                "sns:CreateTopic"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
